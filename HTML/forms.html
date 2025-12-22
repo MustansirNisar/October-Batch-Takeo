@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>       
+        <div>
+            <label for="uname">Enter Username: </label>
+             <input 
+             required name="Username" id="uname" type="text" placeholder="Enter username" maxlength="8" minlength="4">
+        </div>
+        <br>
+        <div>
+            <label for="email">Enter Email:</label>
+        <input id="email" type="email" placeholder="Enter Email">  
+        </div>
+        <br>
+        <label for="">Enter your age:</label>
+        <input min="18" max="30" type="number">
+         <br>
+         <br>
+         <label for="pass">Enter Password: </label>
+         <input id="pass" type="password">
+         <br>
+         <input type="date">
+         <input type="file">
+         <br>
+         <br>
+         <input type="color">
+         <br>
+         <br>
+         <input type="range">
+            <br><br>
+        <fieldset>
+            <legend>Personal Iformation</legend>
+           <label for="">Full Name: </label>
+           <input type="text">
+           <br>
+           <label for="">Father's Name: </label>
+           <input type="text">
+           <br>
+           <label for="">Address: </label>
+           <input type="text">
+           <br>
+           <label for="">Age: </label> 
+           <input type="number">
+        </fieldset>
+         <br><br>
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Female
+        <input type="radio" name="Gender"> Other
+
+        <br>
+        <br>
+        <label>Enter your Skills: </label>
+
+        <label for="html">HTML</label>
+        <input id="html" type="checkbox" value="HTML">
+
+         <label for="">CSS</label>
+        <input type="checkbox" value="CSS">
+         <label for="">JavaScript</label>
+        <input type="checkbox" value="Js">
+         <label for="">Python</label>
+        <input type="checkbox" value="Python">
+        <br><br>
+        <label for="cntry">Select your Country: </label>
+        <select name="" id="cntry">
+            <option value="">Select your country</option>
+            <option value="US">United States</option>
+            <option value="Nepal" selected>Nepal</option>
+            <option value="India">India</option>
+            <option value="Uk">United Kingdom</option>
+            <option value="Aust">Autralia</option>
+       </select>
+       <br><br>
+       <label for="">Enter your Hobby: </label>
+       <input type="text" list="Hobby">
+       <datalist id="Hobby">
+        <option value="Gardening">
+        <option value="Painting">
+        <option value="Calligraphy">
+        <option value="Singing">
+        <option value="Drawing">
+       </datalist>
+       <br><br>
+       <label for="txt">Your Feedback: </label>
+       <textarea name="" id="txt" rows="20" cols="30" disabled></textarea>
+        <br><br>
+        <button>submit</button>
+    </form>
+<br><br><br>
+    <iframe src="https://www.wikipedia.org/" frameborder="1" width="500" height="600"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BmioYKIGzTg?si=WQ-Cg9EbBBdYT67b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GqmW5jTeOjs?si=SOgzrSYB74Mg0Mv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+</body>
+</html>
