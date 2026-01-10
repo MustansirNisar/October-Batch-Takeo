@@ -5,14 +5,14 @@
      salary: 40000
  }
 
-// // console.log(student.fName)
-// // let{fName} = student;
-// // let{age} = student;
-// // let{salary} = student;
-// let{fName, age, salary} = student
-// console.log(fName)
-// console.log(age)
-// console.log(salary)
+ console.log(student.fName)
+ let{fName} = student;
+ let{age} = student;
+ let{salary} = student;
+ let{fName, age, salary} = student
+ console.log(fName)
+ console.log(age)
+ console.log(salary)
 
 // //Destructuring Arrays:
 // let fruits = ["Apple", "Mango", "Grapes"]
@@ -37,3 +37,4 @@ const user = {
 let cUser = {...user, country: "India"}
 
 console.log(cUser)
+
