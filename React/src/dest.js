@@ -15,10 +15,10 @@
  console.log(salary)
 
 // //Destructuring Arrays:
-// let fruits = ["Apple", "Mango", "Grapes"]
+ let fruits = ["Apple", "Mango", "Grapes"]
 
-// let[fruit1, fruit2, fruit3] = fruits
-// console.log(fruit1)
+ let[fruit1, fruit2, fruit3] = fruits
+ console.log(fruit1)
 
 
 //spread operator(...)------spread out elements of an array, object, or iterable into individual items.
@@ -37,4 +37,5 @@ const user = {
 let cUser = {...user, country: "India"}
 
 console.log(cUser)
+
 
