@@ -22,12 +22,12 @@
 
 
 //spread operator(...)------spread out elements of an array, object, or iterable into individual items.
-// let fruits = ["Mango", "Banana", "Cherry"]
-// // let newFruits = [...fruits, "Apple"]
-// // console.log(newFruits)
-// let nums = [1,2,3,4]
-// let combined = [...fruits, ...nums]
-// console.log(combined)
+ let fruits = ["Mango", "Banana", "Cherry"]
+ let newFruits = [...fruits, "Apple"]
+ console.log(newFruits)
+ let nums = [1,2,3,4]
+ let combined = [...fruits, ...nums]
+ console.log(combined)
 
 const user = {
     name: "Bhuvana",
@@ -37,5 +37,6 @@ const user = {
 let cUser = {...user, country: "India"}
 
 console.log(cUser)
+
 
 
