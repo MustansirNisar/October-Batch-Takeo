@@ -1,9 +1,9 @@
 // // Destructuring Objects
-// let student = {
-//     fName: "Pooja",
-//     age: 20,
-//     salary: 40000
-// }
+ let student = {
+     fName: "Pooja",
+     age: 20,
+     salary: 40000
+ }
 
 // // console.log(student.fName)
 // // let{fName} = student;
@@ -35,4 +35,5 @@ const user = {
 }
 
 let cUser = {...user, country: "India"}
+
 console.log(cUser)
